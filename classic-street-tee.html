@@ -4,16 +4,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Classic Street Tee</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 25px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+    }
+
+    .back-button {
+      display: block;
+      width: fit-content;
+      margin: 30px auto 0;
+      padding: 12px 20px;
+      background: #fff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+  </style>
 </head>
 
 <body>
 
   <h1>Classic Street Tee</h1>
+  <div class="price">$25.00</div>
 
-  <img src="Messenger_creation_0C5AABE7-39C3-4388-A527-38109917CF22.jpeg" alt="Classic Street Tee - Red">
-  <img src="Messenger_creation_2375C455-CD58-4054-9F80-6F6395648662.jpeg" alt="Classic Street Tee - Green">
-  <img src="Messenger_creation_321D2EE0-344A-4216-B444-453759B74340.jpeg" alt="Classic Street Tee - Gray">
-  <img src="Messenger_creation_8F09FDED-0070-412D-BAD5-78CBC0DEF4D2.jpeg" alt="Classic Street Tee - Blue">
+  <div class="gallery">
+    <img src="Messenger_creation_0C5AABE7-39C3-4388-A527-38109917CF22.jpeg" alt="Classic Street Tee - Red">
+    <img src="Messenger_creation_2375C455-CD58-4054-9F80-6F6395648662.jpeg" alt="Classic Street Tee - Green">
+    <img src="Messenger_creation_321D2EE0-344A-4216-B444-453759B74340.jpeg" alt="Classic Street Tee - Gray">
+    <img src="Messenger_creation_8F09FDED-0070-412D-BAD5-78CBC0DEF4D2.jpeg" alt="Classic Street Tee - Blue">
+  </div>
+
+  <a href="index.html" class="back-button">BACK TO SHOP</a>
 
 </body>
 </html>
